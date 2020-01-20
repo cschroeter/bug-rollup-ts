@@ -1,0 +1,22 @@
+{
+  "name": "base-package",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/base-package.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "icons",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@wessberg/rollup-plugin-ts": "1.2.13",
+    "rollup": "1.29.0",
+    "tslib": "1.10.0",
+    "typescript": "3.7.5"
+  }
+}
